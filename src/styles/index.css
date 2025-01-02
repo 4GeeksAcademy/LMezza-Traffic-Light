@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    width: 120px;
+    height: 330px;
+    background-color: black;
+    padding-top: 10px;
+    margin-left: 48%;
+    border-radius: 20px 20px / 20px;
+}
+.palo{
+    width: 40px;
+    height: 70px;
+    background-color: black;
+    margin-left: 50%;
+    margin-top: 5%;
+    border-radius: 25% 25% 0% 0%;;
+}
+{
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    align-items: end;
+}
+.rojo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+.brillorojo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: auto;
+}
+.amarillo{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    opacity: 50%;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brilloamarillo{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.verde{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 190, 0);
+    opacity: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+.brilloverde{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 190, 0);
+    border-radius: 50%;
+    margin: auto;
+}
+.boton{
+    width: 120px;
+    height: 60px;
+    margin: 25px 48%;
+    background-color: rgb(110, 175, 236);
+    border: none;
+    border-radius: 20px / 20px 20px;
+}
